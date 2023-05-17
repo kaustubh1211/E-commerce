@@ -1,0 +1,41 @@
+.header{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(  #e82343, #a03547, #743d47);
+    
+    width: 80%;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 80px;
+}
+.logo{
+    color: white;
+    padding-left:40px ;
+    text-decoration: none;
+
+}
+.header-link{
+    display: flex;
+}
+.header-link ul li{
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 18px;
+    list-style: none;
+}
+.header-link ul li a{
+    padding: 0px 20px;
+    color: white;
+}
+.header-link ul li :hover{
+    color: coral;
+}
+.length{
+    color: white;
+    font-size: 13px;
+    padding-right: 3px;
+}
